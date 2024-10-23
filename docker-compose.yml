@@ -8,3 +8,11 @@ services:
       - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
     volumes:
       - ./players.db:/app/players.db
+    networks:
+      - botnetwork
+
+networks:
+  botnetwork:
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1450
