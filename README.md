@@ -1,3 +1,5 @@
+The script was developed using chatgpt (Because the code is very crutch. But it works)
+
 This is a script for searching for players of the game l4d2 zozo server, such as blood factory servers. 
 Script developed for telegram bot
 
